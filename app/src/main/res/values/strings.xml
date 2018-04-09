@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BeepPeep</string>
+    <string name="Details_title">Lets take a look at our stats</string>
+    <string name="Latitude_label">Lat</string>
+    <string name="Latitude_value">[latitude]</string>
+    <string name="Longitude_label">Lon</string>
+    <string name="Longitude_value">[longitude]</string>
+    <string name="Speed_label">Speed</string>
+    <string name="Power_label">Power</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

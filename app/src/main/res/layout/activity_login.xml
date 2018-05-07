@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,13 +8,20 @@
     android:orientation="vertical"
     tools:context=".Login">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/beeppeep" />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="125dp"
         android:ems="10"
-        android:hint="type your email addresss"
+        android:hint="Username"
         android:inputType="textEmailAddress" />
 
     <Space
@@ -25,7 +33,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="enter your password"
+        android:hint="Password"
         android:inputType="textPassword" />
 
     <Space
@@ -48,7 +56,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:text="New to BeePPeep?Sign Up!" />
+    android:text="New to Beep Peep? Sign Up!" />
 
     <Space
         android:layout_width="0.5dp"
@@ -61,10 +69,6 @@
         android:background="@android:color/holo_blue_dark"
         android:text="REGISTER"
         android:textColor="@android:color/background_light" />
-
-
-
-
 
 
 </LinearLayout>

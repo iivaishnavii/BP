@@ -2,7 +2,7 @@ package com.vishesh.beeppeep;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Greeting {
+public class Device {
 
     @JsonProperty("accountID")
     private String accountID;
